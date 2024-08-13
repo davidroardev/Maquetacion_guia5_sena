@@ -5,8 +5,10 @@
 }
 
 body{
-     font-family: sans-serif;
-    
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
  /* Seccion menu de navegacion*/
 .header{
@@ -21,7 +23,6 @@ body{
 }
 .header__logo-container{
     width: 10rem;
-    background-color: yellow;
     margin: 0 25px 0 10px;
 }
 .header__logo{
@@ -58,10 +59,10 @@ body{
 section, main{
     border: 2px solid;
     border-color: black ;
+    box-sizing: border-box;
 }
 
 main{
-    height: 80vh;
     margin-top: 15px;
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@ main{
 .quienes_somos{
     padding: 20px;
     background-color: #eee3ee;
-    
+    margin: 10px 0px;
   }
 
 .slogan{
@@ -95,7 +96,7 @@ main{
     margin-top: 10px;
     }
 
-    .quienes_somos_content_container{
+.quienes_somos_content_container{
     display: flex;
     align-items:center;
     justify-content: space-around;
@@ -139,6 +140,7 @@ main{
     width: 100%;
     text-align: center;
     font-size: 22px;
+    margin: 20px 0px;
 }
 
 .mision_text_container{
@@ -168,6 +170,7 @@ main{
 .Nuestras_Camisas{
     background-color: #330708;
     width: 100%;
+    margin: 10px 0px;
 }
 .shirts_text{
     text-align: center;
@@ -201,4 +204,132 @@ main{
 }
 
 /*seccion camisas fin*/
+
+/*Seccion chaquetas inicio*/
+
+.Nuestras_Chaquetas{
+    background-color: #330708;
+    color: white;
+    margin: 10px 0px;
+    
+}
+
+
+.chaqueta_title{
+    text-align: center;
+    margin: 0 0 15px 0;
+    font-size: 30px;
+}
+
+.chaqueta_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    width: 100%;
+}
+
+.chaqueta_text-container{
+    max-width: 30%;
+    border: 2px solid #e87624;
+    border-radius: 8px;
+    background-color: #e87624;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+.chaqueta_img_container{
+    display: flex;
+    width: 100%;
+    margin: 25px 0 10px 0;
+    justify-content: space-around;
+   
+}
+
+.chaqueta_img{
+    max-width: 20%;
+    border: 2px solid #e87624;
+    border-radius: 8px;
+}
+
+.img_ch{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+/*Seccion chaquetas fin*/
+
+/*Seccion cdiseños inicio*/
+.Diseños_Originales{
+    background-color: #eee3ee;
+    margin: 10px 0px;
+}
+
+.Diseños_Originales>h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.Diseños_Originales>p{
+    text-align: center;
+    font-size: 17px;
+}
+
+
+.diseños_img_container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 15px 0 10px 0 ;
+
+}
+
+.disenos_container{
+    max-width: 25%;
+    border: 2px solid #330708;
+    border-radius: 8px;
+}
+
+.img_ds{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.diseño3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 25px 0 10px 0;
+}
+.disenoscontainer2{
+    max-width: 30%;
+    border: 2px solid #330708;
+    border-radius: 8px;
+}
+
+.imd_ds2{
+    max-width: 100%;
+}
+
+/*Seccion diseño fin*/
+
+footer{
+    background-color: #330708;
+    color: #e8d826;
+    font-size: 18px;
+}
+
+.footerdiv{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 10px;
+}
+
+.container_footer{
+    display: flex;
+    align-items: center;
+
+}
 
